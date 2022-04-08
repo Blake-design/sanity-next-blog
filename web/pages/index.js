@@ -3,6 +3,7 @@ import groq from "groq";
 import client from "../client";
 
 const Index = ({ posts }) => {
+  if (!post) return null;
   return (
     <div>
       <h1>Welcome to a blog!</h1>
