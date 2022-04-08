@@ -27,6 +27,7 @@ const ptComponents = {
 
 const Post = ({ post }) => {
   if (!post) return null;
+
   const {
     title = "Missing title",
     name = "Missing name",
@@ -34,6 +35,7 @@ const Post = ({ post }) => {
     authorImage,
     body = [],
   } = post;
+
   return (
     <article>
       <h1>{title}</h1>
